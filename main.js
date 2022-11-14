@@ -1,4 +1,23 @@
-let producto = parseInt(prompt('Selecciona el producto que deseas comprar: 1_Zapatillas - 2_Remeras - 3_Pantalon - 4_Campera'))
+const producto = {
+    nombre: 'zapatilla',
+    precio: '23000',
+    categoria: 'calzados'
+}
+const producto2 = {
+    nombre: 'remera',
+    precio: '9000',
+    categoria: 'indumentaria'
+}
+const producto3 = {
+    nombre: 'pantalon',
+    precio: '15000',
+    categoria: 'indumentaria'
+}
+const producto4 = {
+    nombre: 'campera',
+    precio: '33000',
+    categoria: 'indumentaria'
+}
 
 let totalCompra = 0
 let seguirComprando = true
